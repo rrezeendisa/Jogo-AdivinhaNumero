@@ -21,7 +21,7 @@ mensagemInicial();
 
 function verificarChute(){
     let chute = document.querySelector('input').value;
-    //console.log(numeroSecreto);
+    console.log(numeroSecreto);
 
     if(chute == numeroSecreto){
         exibirTexto('h1', 'Acertou!');
